@@ -1,0 +1,89 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    background-color: #2e2e35; /* Grey background */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.container {
+    background-image: url('https://cdn.vcgamers.com/news/wp-content/uploads/2022/12/Solo-Leveling-1.png'); /* Replace 'header-background.jpg' with your image file */
+    background-size: contain;
+    background-position: center top;
+    padding: 50px;
+    color: rgb(231, 227, 247);
+    text-align: left;
+    height: 200px;
+}
+/* Style for the form container */
+.form-container {
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding around the form */
+    border: 1px solid #ccc; /* Add a border around the form */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+}
+
+/* Style for form labels */
+label {
+    display: -ms-inline-grid; /* Make labels block elements */
+    margin-bottom: 2px; /* Add some space between labels */
+}
+
+/* Style for form input fields */
+input[type="text"],
+input[type="number"],
+input[type="url"] {
+    width: 15%; 
+    padding: 2px; /* Add padding inside input fields */
+    margin-inline-start: 5px; /* Add some space between input fields */
+    border: 1px solid #ccc; /* Add a border around input fields */
+    border-radius: 4px; /* Add some border radius for rounded corners */
+    box-sizing: border-box; /* Include padding and border in input field's total width */
+}
+
+/* Style for the submit button */
+button[type="button"] {
+    width: 15%; /* Make the button full width */
+    padding: 10px; /* Add padding inside the button */
+    background-color: #1544df; /* Green background color */
+    color: white; /* White text color */
+    border: none ;/* Remove border */
+    border-radius: 4px; /* Add some border radius for rounded corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+/* Style for the submit button on hover */
+button[type="button"]:hover {
+    background-color: #04114e; /* Darker green color on hover */
+}
+
+/* Equipment card styles */
+.card {
+    background-color: rgb(129, 127, 150);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    padding: 15px;
+    max-width: 200px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card img {
+    width: 100%; /* Make all images the same size */
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #001f3f; /* Dark blue background */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
