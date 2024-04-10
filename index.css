@@ -2,34 +2,40 @@
 
 /* Body styles */
 body {
-    background-color: #2e2e35; /* Grey background */
+    background-color: #393958; /* background-color */
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+
 }
 
 /* Header styles */
 .container {
-    background-image: url('https://cdn.vcgamers.com/news/wp-content/uploads/2022/12/Solo-Leveling-1.png'); /* Replace 'header-background.jpg' with your image file */
-    background-size: contain;
-    background-position: center top;
+   
     padding: 50px;
-    color: rgb(231, 227, 247);
-    text-align: left;
+    color: rgb(252, 251, 253);
+    text-align: right;
     height: 200px;
+
+}
+/* Header Image */
+header {
+    background-image: url('https://sgimage.netmarble.com/images/netmarble/sololv/20240105/rxxx1704430473104.jpg'); /* Replace 'header-background.jpg' with your image file */
+    background-size: cover;
+    background-position: center ;
 }
 /* Style for the form container */
 .form-container {
-    max-width: 400px; /* Adjust the maximum width as needed */
+    max-width: 300px; /* Adjust the maximum width as needed */
     margin: 0 auto; /* Center the form horizontally */
     padding: 20px; /* Add padding around the form */
-    border: 1px solid #ccc; /* Add a border around the form */
+    border: 1px solid #2d3d94; /* Add a border around the form */
     border-radius: 5px; /* Add some border radius for rounded corners */
 }
 
 /* Style for form labels */
 label {
-    display: -ms-inline-grid; /* Make labels block elements */
+    display: -ms-inline-grid;
     margin-bottom: 2px; /* Add some space between labels */
 }
 
@@ -40,17 +46,18 @@ input[type="url"] {
     width: 15%; 
     padding: 2px; /* Add padding inside input fields */
     margin-inline-start: 5px; /* Add some space between input fields */
-    border: 1px solid #ccc; /* Add a border around input fields */
+    border: 1px solid #181a2e; /* Add a border around input fields */
     border-radius: 4px; /* Add some border radius for rounded corners */
     box-sizing: border-box; /* Include padding and border in input field's total width */
+    
 }
 
 /* Style for the submit button */
 button[type="button"] {
-    width: 15%; /* Make the button full width */
+    width: 15%; 
     padding: 10px; /* Add padding inside the button */
-    background-color: #1544df; /* Green background color */
-    color: white; /* White text color */
+    background-color: #111a38; /* Green background color */
+    color: rgb(246, 246, 250); /* White text color */
     border: none ;/* Remove border */
     border-radius: 4px; /* Add some border radius for rounded corners */
     cursor: pointer; /* Add pointer cursor on hover */
@@ -58,14 +65,14 @@ button[type="button"] {
 
 /* Style for the submit button on hover */
 button[type="button"]:hover {
-    background-color: #04114e; /* Darker green color on hover */
+    background-color: #0b34ee; /* Light blue color on hover */
 }
 
 /* Equipment card styles */
 .card {
-    background-color: rgb(129, 127, 150);
+    background-color: rgb(95, 90, 145);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(25, 33, 104, 0.1);
     margin: 5px;
     padding: 15px;
     max-width: 200px;
@@ -82,7 +89,7 @@ button[type="button"]:hover {
 
 /* Footer styles */
 footer {
-    background-color: #001f3f; /* Dark blue background */
+    background-color: #213244; /* Dark blue background */
     color: white;
     text-align: center;
     padding: 20px;
