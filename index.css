@@ -89,8 +89,33 @@ button[type="button"]:hover {
 
 /* Footer styles */
 footer {
-    background-color: #213244; /* Dark blue background */
+    height: 280px;
+    background-color: #040c14; /* Dark blue background */
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+#media-logo {
+    padding: 2px; 
+    margin: 7px; 
+
+}
+#media-logo img {
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    border-radius: 50%; /* Creates a circular boundary */
+    object-fit: cover; /* Ensures the image fills the container while maintaining its aspect ratio */
+    margin-right: 50px;
+}
+#sponsors {
+    padding: 20px; 
+    margin: 10px
+}
+#sponsors img {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border-radius: 50%; /* Creates a circular boundary */
+    object-fit: cover; /* Ensures the image fills the container while maintaining its aspect ratio */
+    margin-right: 20px;
 }
