@@ -1,104 +1,109 @@
-
+{
+  "equipment": [
     {
-        "equipment": [
-          {
-            "id": "1",
-            "name": "Dagger of Return",
-            "type": "Weapon",
-            "description": "A dagger imbued with magical properties allowing the user to teleport short distances.",
-            "image_url": "https://fly.storage.tigris.dev/pai-images/aff6af34059e404eaf0ba74e521a9d02.jpeg",
-            "Worth":"30,500,000 Au"
-          },
-          {
-            "id": "2",
-            "name": "Red Knight's Armor",
-            "type": "Armor",
-            "description": "Heavy armor worn by knights of the Red Gate. Provides exceptional protection against physical attacks.",
-            "image_url": "https://storage.googleapis.com/pai-images/61556e9cd9f44b39914533d25415e7d8.jpeg",
-            "Worth":"100,000,000 Au"
-          },
-          {
-            "id": "3",
-            "name": "Shadow Cloak",
-            "type": "Cloak",
-            "description": "A cloak infused with shadows, granting the wearer increased agility and stealth capabilities.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQExs_Fqn-_1AY6bvopP7ZM_qSkEH9jFXR3r-zCaifIS9qvzP6Ilujwh4MW8clfAijcNWU&usqp=CAU",
-            "Worth":"25,000,000 Au"
-          },
-          {
-            "id": "4",
-            "name": "Eternal Frost Bow",
-            "type": "Weapon",
-            "description": "A bow crafted from ice, capable of freezing enemies upon impact.",
-            "image_url": "https://i.pinimg.com/originals/86/3e/05/863e05db6c19fc896306109f824d122b.jpg",
-            "Worth":"37,000,000 Au"
-          },
-          {
-            "id": "5",
-            "name": "Guardian's Plate",
-            "type": "Armor",
-            "description": "Plate armor adorned with ancient runes, blessed by guardian spirits to enhance the wearer's defenses.",
-            "image_url": "https://i.pinimg.com/736x/66/77/37/6677377f6e3b7378fe873a7a73fdad80.jpg",
-            "Worth":"26,500,000 Au"
-          },
-          {
-            "id": "6",
-            "name": "Ring of Infinite Wisdom",
-            "type": "Accessory",
-            "description": "A mystical ring that enhances the wearer's intelligence and grants insight into complex situations.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRoHEStG3-wRXwNZHXJrPcsXNbEqADOfyzZKH3RHvrsXBGVQzq5IebLAVEj3jf_ejBqHQ&usqp=CAU",
-            "Worth":"25,700,000 Au"
-          },
-          {
-            "id": "7",
-            "name": "Phoenix Blade",
-            "type": "Weapon",
-            "description": "A legendary sword said to have been forged from the feathers of a phoenix. It burns with eternal flames.",
-            "image_url": "https://i.pinimg.com/originals/97/d5/82/97d582b1a61cc93d13551ad20009b91b.jpg",
-            "Worth":"38,000,000 Au"
-          },
-          {
-            "id": "8",
-            "name": "Cloak of Invisibility",
-            "type": "Cloak",
-            "description": "A magical cloak that renders the wearer invisible to both the naked eye and magical detection.",
-            "image_url": "https://r2.starryai.com/results/231043455/82f8b4fd-23af-45f1-9a4b-f9172814ab3f.webp",
-            "Worth":"32,000,000 Au"
-          },
-          {
-            "id": "9",
-            "name": "Giant's Gauntlets",
-            "type": "Armor",
-            "description": "Gauntlets crafted from the bones of giants, granting the wearer immense strength.",
-            "image_url": "https://i.etsystatic.com/26740374/r/il/367b42/2963539785/il_570xN.2963539785_f8mt.jpg",
-            "Worth":"31,500,000 Au"
-          },
-          {
-            "id": "10",
-            "name": "Sorcerer's Staff",
-            "type": "Weapon",
-            "description": "A staff imbued with the power of elemental magic, capable of casting devastating spells.",
-            "image_url": "https://t3.ftcdn.net/jpg/05/99/74/08/360_F_599740850_qftE15h55cv0sR4vKuOwsKHcpe0Gakbq.jpg",
-            "Worth":"45,700,000"
-          },
-      
-      {   
-         "id": "11",
-        "name":"Kasaka's Venom Fang",
-        "type":"Weapon",
-        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh51byQ3JM8YjPe0kffi8o1F3VFu5LFwwBhStWvfZYoQ&s",
-        "description" : "Kasaka's Venom Fang is a small black dagger with a white edge and a hilt made out of bones.Causes paralysis and decrease in health by 1% for every second the ability is active.",
-        "Worth":"34,000,000 Au"
-
+      "id": "1",
+      "name": "Dagger of Return",
+      "type": "Weapon",
+      "description": "A dagger imbued with magical properties allowing the user to teleport short distances.",
+      "image_url": "https://fly.storage.tigris.dev/pai-images/aff6af34059e404eaf0ba74e521a9d02.jpeg",
+      "Worth": "30,500,000 Au"
     },
     {
-      "id":"12",
-      "name":"Demon King's Longsword",
-      "type":"Weapon",
-      "image_url":"https://fbi.cults3d.com/uploaders/15891207/illustration-file/16d49abd-9b94-404a-87df-55e036a4c2dc/1.jpg",
-      "description":"A longsword once used by Baran. Has a second effect called Storm of White Flames, which summons a small lightning storm within a certain area.",
-      "Worth":"64,000,000 Au"
+      "id": "2",
+      "name": "Red Knight's Armor",
+      "type": "Armor",
+      "description": "Heavy armor worn by knights of the Red Gate. Provides exceptional protection against physical attacks.",
+      "image_url": "https://storage.googleapis.com/pai-images/61556e9cd9f44b39914533d25415e7d8.jpeg",
+      "Worth": "100,000,000 Au"
+    },
+    {
+      "id": "3",
+      "name": "Shadow Cloak",
+      "type": "Cloak",
+      "description": "A cloak infused with shadows, granting the wearer increased agility and stealth capabilities.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQExs_Fqn-_1AY6bvopP7ZM_qSkEH9jFXR3r-zCaifIS9qvzP6Ilujwh4MW8clfAijcNWU&usqp=CAU",
+      "Worth": "25,000,000 Au"
+    },
+    {
+      "id": "4",
+      "name": "Eternal Frost Bow",
+      "type": "Weapon",
+      "description": "A bow crafted from ice, capable of freezing enemies upon impact.",
+      "image_url": "https://i.pinimg.com/originals/86/3e/05/863e05db6c19fc896306109f824d122b.jpg",
+      "Worth": "37,000,000 Au"
+    },
+    {
+      "id": "5",
+      "name": "Guardian's Plate",
+      "type": "Armor",
+      "description": "Plate armor adorned with ancient runes, blessed by guardian spirits to enhance the wearer's defenses.",
+      "image_url": "https://i.pinimg.com/736x/66/77/37/6677377f6e3b7378fe873a7a73fdad80.jpg",
+      "Worth": "26,500,000 Au"
+    },
+    {
+      "id": "6",
+      "name": "Ring of Infinite Wisdom",
+      "type": "Accessory",
+      "description": "A mystical ring that enhances the wearer's intelligence and grants insight into complex situations.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRoHEStG3-wRXwNZHXJrPcsXNbEqADOfyzZKH3RHvrsXBGVQzq5IebLAVEj3jf_ejBqHQ&usqp=CAU",
+      "Worth": "25,700,000 Au"
+    },
+    {
+      "id": "7",
+      "name": "Phoenix Blade",
+      "type": "Weapon",
+      "description": "A legendary sword said to have been forged from the feathers of a phoenix. It burns with eternal flames.",
+      "image_url": "https://i.pinimg.com/originals/97/d5/82/97d582b1a61cc93d13551ad20009b91b.jpg",
+      "Worth": "38,000,000 Au"
+    },
+    {
+      "id": "8",
+      "name": "Cloak of Invisibility",
+      "type": "Cloak",
+      "description": "A magical cloak that renders the wearer invisible to both the naked eye and magical detection.",
+      "image_url": "https://r2.starryai.com/results/231043455/82f8b4fd-23af-45f1-9a4b-f9172814ab3f.webp",
+      "Worth": "32,000,000 Au"
+    },
+    {
+      "id": "9",
+      "name": "Giant's Gauntlets",
+      "type": "Armor",
+      "description": "Gauntlets crafted from the bones of giants, granting the wearer immense strength.",
+      "image_url": "https://i.etsystatic.com/26740374/r/il/367b42/2963539785/il_570xN.2963539785_f8mt.jpg",
+      "Worth": "31,500,000 Au"
+    },
+    {
+      "id": "10",
+      "name": "Sorcerer's Staff",
+      "type": "Weapon",
+      "description": "A staff imbued with the power of elemental magic, capable of casting devastating spells.",
+      "image_url": "https://t3.ftcdn.net/jpg/05/99/74/08/360_F_599740850_qftE15h55cv0sR4vKuOwsKHcpe0Gakbq.jpg",
+      "Worth": "45,700,000"
+    },
+    {
+      "id": "11",
+      "name": "Kasaka's Venom Fang",
+      "type": "Weapon",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh51byQ3JM8YjPe0kffi8o1F3VFu5LFwwBhStWvfZYoQ&s",
+      "description": "Kasaka's Venom Fang is a small black dagger with a white edge and a hilt made out of bones.Causes paralysis and decrease in health by 1% for every second the ability is active.",
+      "Worth": "34,000,000 Au"
+    },
+    {
+      "id": "12",
+      "name": "Demon King's Longsword",
+      "type": "Weapon",
+      "image_url": "https://fbi.cults3d.com/uploaders/15891207/illustration-file/16d49abd-9b94-404a-87df-55e036a4c2dc/1.jpg",
+      "description": "A longsword once used by Baran. Has a second effect called Storm of White Flames, which summons a small lightning storm within a certain area.",
+      "Worth": "64,000,000 Au"
+    },
+    
+    {
+      "id": "12",
+      "name": "Knight Killer",
+      "type": "Weapon",
+      "description": "A dagger designed to fight against armored enemies. Deals an extra +25% damage against armored opponents",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxDn8GgWeOb0uinA-YErjKxsG_f7tRmrVKoCL7DJckHQ&s",
+      "worth": "65,000,000 Au"
     }
-    ]
-  }
-  
+  ]
+}

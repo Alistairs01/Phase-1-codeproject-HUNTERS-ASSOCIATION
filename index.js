@@ -2,6 +2,13 @@
 function createEquipmentCard(equipment) {
     const card = document.createElement('div');
     card.classList.add('card');
+// Add mouseover and mouseout event listeners to change card color
+card.addEventListener('mouseover', () => {
+    card.style.backgroundColor = 'lightblue'; // Change color on mouseover
+});
+card.addEventListener('mouseout', () => {
+    card.style.backgroundColor = ''; // Revert to default color on mouseout
+});
 
     card.innerHTML = `
         <h2>${equipment.name}</h2>
@@ -64,3 +71,56 @@ function fetchEquipmentData() {
         })
         .catch(error => console.error('Error fetching equipment data:', error));
 }
+
+function updateEquipment() {
+    const addEquipmentForm = document.querySelector('#equipmentForm');
+
+    // Define the submit handler function
+     function handleSubmit(event) {
+        event.preventDefault();
+
+        let namedata = document.getElementById('name').value;
+        let typedata = document.getElementById('type').value;
+        let descriptiondata = document.getElementById('description').value;
+        let imagedata = document.getElementById('imageUrl').value;
+        let worthdata = document.getElementById('worth').value;
+
+        const newEquipment = {
+            name: namedata,
+            type: typedata,
+            description: descriptiondata,
+            image_url: imagedata,
+            worth: worthdata // Consider consistent casing for property names
+        };
+
+        const card = createEquipmentCard(newEquipment);
+        const equipmentList = document.getElementById('equipment-list');
+        equipmentList.appendChild(card);
+
+        // Optionally, clear the form fields after submission
+        addEquipmentForm.reset();
+    }
+
+    // Attach the submit event listener to the form
+    addEquipmentForm.addEventListener('submit', handleSubmit);
+}
+
+// Call updateEquipment to handle adding new equipment
+updateEquipment();
+
+  // Send a POST request to the server with the new equipment data
+  fetch('/addEquipment', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(newEquipment)
+})
+.then(response => response.text())
+.then(message => {
+    console.log(message); // Log the response from the server
+    // Optionally, display a success message to the user
+})
+.catch(error => console.error('Error adding equipment:', error));
+
+
