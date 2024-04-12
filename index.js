@@ -13,7 +13,7 @@ card.addEventListener('mouseout', () => {
     card.innerHTML = `
         <h2>${equipment.name}</h2>
         <p>Type: ${equipment.type}</p>
-        <p>Worth: ${equipment.Worth}</p>
+        <p>Worth: ${equipment.worth}</p>
         <p>Description: ${equipment.description}</p>
         <img src="${equipment.image_url}" alt="${equipment.name}" class="equipment-image">
         <button class="buy-btn">Buy</button>
@@ -25,11 +25,22 @@ card.addEventListener('mouseout', () => {
     buyButton.addEventListener('click', () => buy(equipment));
 
     // Add event listener for delete button
-    card.querySelector('.delete-btn').addEventListener('click', () => deleteEquipment(equipment));
+    const deleteButton = card.querySelector('.delete-btn');
+ deleteButton.addEventListener('click', () => deleteEquipment(card));
 
     return card;
 }
+// Define delete function
 
+function deleteEquipment(card) {
+    const confirmDelete = confirm(`Are you sure you want to delete ${card.querySelector('h2').textContent}?`);
+          if (confirmDelete) {
+            // if the user confirms delete,execute delete action
+            card.remove();
+      // Show sucess message 
+            alert(`You have successfully deleted ${card.querySelector('h2').textContent}`)
+           }
+} 
 // Define buy function
 function buy(equipment) {
     // Show confirmation prompt
@@ -103,12 +114,7 @@ function updateEquipment() {
 
     // Attach the submit event listener to the form
     addEquipmentForm.addEventListener('submit', handleSubmit);
-}
-
-// Call updateEquipment to handle adding new equipment
-updateEquipment();
-
-  // Send a POST request to the server with the new equipment data
+     // Send a POST request to the server with the new equipment data
   fetch('/addEquipment', {
     method: 'POST',
     headers: {
@@ -123,4 +129,9 @@ updateEquipment();
 })
 .catch(error => console.error('Error adding equipment:', error));
 
+
+}
+
+// Call updateEquipment to handle adding new equipment
+updateEquipment();
 
